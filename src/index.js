@@ -73,9 +73,6 @@ const play = () => {
     gain3.connect(pan3);
     pan3.connect(ctx.destination);
 
-    // connect to destination
-    merger.connect(ctx.destination);
-
     // play
     oscillator1.start();
     oscillator2.start();
